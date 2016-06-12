@@ -1,0 +1,29 @@
+Title: Kompiler Less
+Author: Taufik Nurrohman
+URL: http://latitudu.com
+Version: 1.0.0
+
+====
+
+> `lessphp` adalah kompiler untuk Less ditulis dalam bahasa PHP.
+
+**lessphp** adalah kompiler yang menghasilkan CSS dari sejumlah set bahasa dengan koleksi fitur yang tidak jauh berbeda dari bahasa-bahasa lain yang ada. Semua CSS adalah kompatibel dengan Less, sehingga Anda dapat mulai menggunakan fitur-fitur baru dengan CSS yang sudah ada.
+
+Ini didesain agar kompatibel dengan [less.js](http://lesscss.org), dan sesuai sebagai _drop in replacement_ untuk proyek PHP.
+
+Halaman muka untuk **lessphp** dapat ditemukan di <http://leafo.net/lessphp>
+
+---
+
+#### Aset Less
+
+Gunakan ini sebagaimana Anda menggunakan `Asset::stylesheet()`.
+
+~~~ .php
+echo Asset::less('jalur/ke/berkas.less');
+~~~
+
+*[CSS]: Cascading Style Sheet
+*[PHP]:
+
+<!-- block:donate -->

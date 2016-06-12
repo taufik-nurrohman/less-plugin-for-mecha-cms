@@ -1,0 +1,11 @@
+plugin_less:
+  title:
+    less_disable: Nonaktifkan Kompiler <abbr title="">LESS</abbr>
+    format: Format
+    formatter:
+      lessjs: Less.js
+      compressed: Dikompresi
+      classic: Klasik
+    preserve_comments: Biarkan Komentar dalam <abbr title="Cascading Style Sheet">CSS</abbr>
+  description:
+    less_disable: Gunakan sintaks <abbr title="Cascading Style Sheet">CSS</abbr> mentah?

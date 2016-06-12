@@ -1,0 +1,11 @@
+plugin_less:
+  title:
+    less_disable: Disable <abbr title="">LESS</abbr> Compiler
+    format: Format
+    formatter:
+      lessjs: Less.js
+      compressed: Compressed
+      classic: Classic
+    preserve_comments: Preserve Comments
+  description:
+    less_disable: Use plain <abbr title="Cascading Style Sheet">CSS</abbr> syntax?
