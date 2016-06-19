@@ -19,7 +19,7 @@ Asset::plug('less', function($path, $addon = "", $merge = false) {
     $path_less = is_string($path) ? explode(' ', $path) : (array) $path;
     $path_css = array();
     foreach($path_less as $p) {
-        $p = Asset::path($p);
+        if( ! $p = Asset::path($p)) continue;
         if(substr($p, -4) === '.css') {
             $path_css[] = $p;
             continue;
